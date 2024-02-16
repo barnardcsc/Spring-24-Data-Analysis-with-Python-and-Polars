@@ -106,6 +106,7 @@ To fetch the data, we make a request to the endpoint/URL:
 
 ```python
 import requests
+import polars as pl
 
 url = "https://data.cityofnewyork.us/resource/kpav-sd4t.json"
 response = requests.get(url)
